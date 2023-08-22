@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Factorial",
+      "setup": "",
+      "run": "gradle test --tests TestFactorial",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "ListaFactoriales",
+      "setup": "",
+      "run": "gradle test --tests TestListaFactoriales",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "RepetirListas",
+      "setup": "",
+      "run": "gradle test --tests TestRepetirListas",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "TestFiltrarListas",
+      "setup": "",
+      "run": "gradle test --tests TestFiltrarListas",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
